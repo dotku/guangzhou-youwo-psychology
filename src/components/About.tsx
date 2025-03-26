@@ -1,5 +1,5 @@
-import React from 'react';
-import { Award, Heart } from 'lucide-react';
+import React from "react";
+import { Award, Heart } from "lucide-react";
 
 export function About() {
   return (
@@ -7,7 +7,7 @@ export function About() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
-            <img 
+            <img
               src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
               alt="Team"
               className="rounded-xl shadow-lg"
@@ -21,11 +21,11 @@ export function About() {
             <div className="grid grid-cols-2 gap-6">
               <div className="flex items-center space-x-2">
                 <Award className="h-6 w-6 text-rose-500" />
-                <span>专业认证团队</span>
+                <span>专业团队</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Heart className="h-6 w-6 text-rose-500" />
-                <span>温暖贴心服务</span>
+                <span>温心服务</span>
               </div>
             </div>
           </div>

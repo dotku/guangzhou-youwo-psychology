@@ -1,11 +1,11 @@
-import React from 'react';
-import { Header } from './components/Header';
-import { Services } from './components/Services';
-import { Cases } from './components/Cases';
-import { Pricing } from './components/Pricing';
-import { About } from './components/About';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
+import { Header } from "./components/Header";
+import { Services } from "./components/Services";
+import { Cases } from "./components/Cases";
+import { Pricing } from "./components/Pricing";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import { Chatbot } from "./components/Chatbot";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <Chatbot />
     </div>
   );
 }
